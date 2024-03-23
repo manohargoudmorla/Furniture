@@ -1,0 +1,819 @@
+* {
+    margin: 0%;
+    /* padding: 0%; */
+    font-family: calibri;
+    /* background-color: rgba(247,247,247,255); */
+}
+
+
+/* HOME style starts hear */
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+    width: 100%;
+}
+
+.lolo{
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 0%;
+    position: relative;
+    top: 3px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.secondlist {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.list li {
+    list-style: none;
+    padding: 15px 5px;
+}
+
+.secondlist li{
+    list-style: none;
+    padding: 15px 5px;
+}
+
+/* =================================== */
+li select{
+    border: none;
+}
+
+li option{
+    border: none;
+    font-weight: bold;
+    font-size: x-large;
+}
+/* ==================================== */
+
+/* .dropdown{
+    
+} */
+
+/* header li option:hover{
+    background-color:  rgb(200, 188, 28);
+} */
+
+.heading a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(17, 10, 10);
+    font-weight: bold;
+}
+
+header li a:hover {
+    background-color:  rgb(200, 188, 28);
+    text-decoration: none;
+}
+
+/* .active:visited{
+    color: rgb(7, 164, 164);
+    text-decoration: underline;
+} */
+
+.banner {
+    background-image: url(./Assets/slider1.jpg);
+    background-size:cover;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.bannercontent {
+    font-family: calibri;
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.banner1 {
+    font-size: 350%;
+    color: black;
+}
+
+.banner2 {
+    font-size: 150%;
+    color: rgb(109, 109, 109);
+    line-height: 80px;
+}
+
+.banner3 {
+    font-size: 250%;
+    color: rgb(109, 109, 109);
+    margin: 5px;
+}
+
+.shopnow {
+    background-color: black;
+    border-radius: 20px;
+    padding: 3px 15px;
+    margin-top: 25px;   
+}
+
+.a-banner {
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.wanted{
+    display: flex;
+    justify-content: center;
+}
+
+.ninew{
+    margin: 15px;
+}
+
+.wanted img{
+    height: 80px;
+    width: 70px;
+}
+
+.wanted p{
+    font-size:large;
+}
+
+.dotss {
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.dotss li{
+    padding: 15px;
+    color: lightslategray;
+}
+
+.dots li:hover{
+    color: black;
+}
+
+.dotdot{
+    color: black;
+}
+
+.threenames {
+    display: flex;
+    font-size: large;
+    justify-content: center;
+}
+
+.threenames li{
+    list-style: none;
+    padding: 15px;
+}
+.menu{
+    text-decoration: none;
+    font-size: x-large;
+    color: lightslategray;
+    font-weight: bold;
+}
+
+.threenames a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.threebox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: no wrap;
+}
+
+.five {
+    background-color:rgba(247,247,247,255);
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 520px;
+    width: 430px;
+    position: relative;
+}
+
+.five img{
+    height:400px;
+    width: 400px;
+}
+
+.salelogo img{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.tablecontent p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.zoom .sale{
+    position: absolute;
+    margin: 0px;
+    height: 100px;
+    width: 50px;
+}
+
+.twobox {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    flex-wrap: no wrap;
+    margin-left: 50px;
+}
+
+.zoom{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    transition: all 0.9;
+    display: block;
+    transform: scale(1);
+}
+
+.zoom:hover img{
+    transform: scale(1.1);
+}
+
+.bannerban {
+    background-image: url(./Assets/banner_full_width.png);
+    background-size: 100% 100%;
+    height: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    padding-top: 30px;
+}
+
+footer p{
+    padding: 0px 0px 15px 0px;
+}
+
+.footerheading h2{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.footerfooter {
+    display: flex;
+    text-align: start;
+    height: 300px;
+    font-size: 22px;
+    justify-content: space-around;
+}
+
+.Contact{
+    display: flex;
+}
+
+.footerlogo img{
+    height: 80px;
+    width: 100px;
+}
+
+/* Design page starts here */
+
+.designhome{
+    gap: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 130px;
+}
+
+.designhome a{
+    text-decoration: none;
+    color: black;   
+}
+
+.sixdesign {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: no wrap;
+}
+
+.threedesign {
+    /* background-color:rgba(247,247,247,255); */
+    /* padding: 15px 15px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    height: 300px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.threedesign img{
+    height:300px;
+    width: 400px;
+}
+
+.lovelogo img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 10px;
+}
+
+.designimg{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.designimg img{
+    max-width: 100%;
+    transition: all 0.9;
+    display: block;
+    transform: scale(1);
+}
+
+.designimg:hover img{
+    transform: scale(1.1);
+}
+
+
+/* Stories page starts here */
+
+.storieshome{
+    gap: 5px;
+    display: flex;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 130px;
+}
+
+.storieshome a{
+    text-decoration: none;
+    color: black;   
+}
+
+.stories {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: no wrap;
+}
+
+.storiesimg {
+    background-color:rgba(247,247,247,255);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 500px;
+    width: 600px;
+    margin: 20px;
+    position: relative;
+}
+
+.storiesimg img{
+    height:400px;
+    width: 600px;
+}
+
+.storieslogo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px 0px ;
+}
+.storiescontent{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.storiescontent p{
+    font-size: x-large;
+}
+
+/* .storyimg .sale{
+    position: absolute;
+    margin: 0px;
+    height: 100px;
+    width: 50px;
+} */
+
+.storyimg{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.storyimg img{
+    max-width: 100%;
+    transition: all 0.9;
+    display: block;
+    transform: scale(1);
+}
+
+.storyimg:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* FAQ page starts hear */
+
+.faqbanner {
+    background-image: url(./Assets/banner.png);
+    background-size: 100% 100%;
+    height: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.faqshome{
+    gap: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 130px;
+}
+
+.faqshome a{
+    text-decoration: none;
+    color: black;   
+}
+
+.faqheading h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.faqcontent{
+    display: flex;
+    padding: 0px 120px;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.faqcontent1{
+    width: 50%;
+    font-size: x-large;
+}
+
+.faqcontent2{
+    width: 50%;
+    font-size: x-large;
+}
+
+.faqcontent3{
+    width: 100%;
+    font-size: x-large;
+}
+
+.faqcontent1 h3{
+    color: #4a4a4a;
+    margin-bottom: 7px;
+}
+
+.faqcontent1 p{
+    color: #9fa8b3;
+}
+
+.faqcontent3 h3{
+    color: #4a4a4a;
+    margin-bottom: 7px;
+}
+
+.faqcontent3 p{
+    color: #9fa8b3;
+}
+
+
+
+/* contact page starts hear */
+
+.contacthome{
+    gap: 5px;
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 80px;
+}
+
+.contacthome a{
+    text-decoration: none;
+    color: black;   
+}
+
+.contactcontent2 img{
+    height: 900px;
+    width: 100%
+}
+
+.contactcontent{
+    display: flex;
+    padding: 0px 80px;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.contactcontent1{
+    width: 55%;
+    margin-top: 120px;
+    font-size: x-large;
+}
+
+.contactcontent2{
+    width: 45%;
+}
+
+.contactcontent3{
+    width: 100%;
+    font-size: x-large;
+}
+
+.contactpara h1{
+    font-size: xxx-large;
+    margin-bottom: 8px;
+}
+
+.contactpara1 h2{
+    color: #4a4a4a; 
+    margin-bottom: 90px;
+}
+
+.contactpara3 h3{
+    color: #4a4a4a; 
+    margin-bottom: 20px;
+}
+
+.contactpara4 h3{
+    color: #4a4a4a; 
+    margin-bottom: 10px;
+}
+
+.contactpara2{
+    color: #9fa8b3;
+    margin-bottom: 30px;
+}
+
+.contactpara3{
+    color: #9fa8b3;
+    margin-bottom: 80px;
+} 
+
+.contactpara4{
+    color: #9fa8b3;
+    margin-bottom: 20px;
+} 
+
+.fontawesome{
+    display: flex;
+    gap: 20px;  
+}
+
+.fontawesome i{
+    border-radius: 50%;
+    font-size: large;
+    background: #3e3f44;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for mobile devices */
+@media (min-width: 320px) and (max-width: 420px) {
+    /* Header styles */
+    .heading {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      position: static;
+      background-color: transparent;
+    }
+  
+    .lolo {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logoimg {
+      order: 1;
+      margin-bottom: 10px;
+    }
+  
+    .list,
+    .secondlist {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .mobile-menu li {
+      list-style: none;
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .mobile-menu li a {
+      text-decoration: none;
+      color: rgb(17, 10, 10);
+      font-weight: bold;
+    }
+  
+    /* Banner styles */
+    .banner {
+      height: 400px;
+    }
+  
+    .bannercontent {
+      margin-top: 25%;
+      margin-left: 5%;
+    }
+  
+    .banner1 {
+      font-size: 150%;
+    }
+  
+    .banner2 {
+      font-size: 80%;
+      line-height: 30px;
+    }
+  
+    .banner3 {
+      font-size: 100%;
+    }
+  
+    .shopnow {
+      padding: 2px 10px;
+      margin-top: 15px;
+    }
+  
+    /* Wanted section styles */
+    .wanted {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ninew {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    /* Three names section styles */
+    .threenames {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .threenames li {
+      padding: 10px;
+    }
+  
+    /* Three box section styles */
+    .threebox {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .five {
+      width: 300px;
+      height: 400px;
+    }
+  
+    .five img {
+      height: 300px;
+      width: 300px;
+    }
+  
+    .salelogo img {
+      height: 80px;
+      width: 40px;
+      top: 10px;
+      right: 10px;
+    }
+  
+    /* Two box section styles */
+    .twobox {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    /* Banner section styles */
+    .bannerban {
+      height: 200px;
+    }
+  
+    /* Footer section styles */
+    .footerfooter {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+    }
+  
+    .footerheading h2 {
+      font-size: x-large;
+    }
+  
+    .Contact {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Design section styles */
+    .sixdesign {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .threedesign {
+      width: 300px;
+      height: 200px;
+    }
+  
+    .threedesign img {
+      width: 300px;
+      height: 200px;
+    }
+  
+    .lovelogo img {
+      height: 30px;
+      width: 30px;
+    }
+  
+    /* Stories section styles */
+    .stories {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .storiesimg {
+      width: 300px;
+      height: 400px;
+    }
+  
+    .storiesimg img {
+      width: 300px;
+      height: 300px;
+    }
+  }
