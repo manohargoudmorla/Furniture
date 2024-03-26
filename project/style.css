@@ -449,9 +449,22 @@ footer p{
     transform: scale(1.1);
 }
 
+.buttons{
+    display: flex;
+    gap: 1px;
+    justify-content: center;   
+}
 
+.buttons button{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid #3e3f44;
+}
 
-
+.buttons button:hover{
+    background-color: gray;
+}
 
 /* FAQ page starts hear */
 
